@@ -8,11 +8,11 @@ int main()
     int i;
     float data[10];
 
-    printf("Enter 10 elements: ");
+    printf("Enter 10 elements:\n");
     for(i=0; i < 10; ++i)
         scanf("%f", &data[i]);
 
-    printf("\nStandard Deviation = %.6f", calculateSD(data));
+    printf("Standard Deviation = %.6f\n", calculateSD(data));
 
     return 0;
 }
